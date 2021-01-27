@@ -13,14 +13,15 @@ package driver
 import (
 	"fmt"
 	"time"
+
 	dsModels "github.com/edgexfoundry/device-sdk-go/pkg/models"
 	"github.com/edgexfoundry/go-mod-core-contracts/clients/logger"
 	contract "github.com/edgexfoundry/go-mod-core-contracts/models"
 )
 
 type Driver struct {
-	lc      logger.LoggingClient
-	asyncCh chan<- *dsModels.AsyncValues
+	lc         logger.LoggingClient
+	asyncCh    chan<- *dsModels.AsyncValues
 	gpiodevice *GPIODev
 }
 

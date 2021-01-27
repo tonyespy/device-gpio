@@ -1,5 +1,5 @@
 name: "GPIO-Device"
-manufacturer: "jiangxing.ai"
+manufacturer: "Jiangxing Intelligence"
 model: "SP-01"
 labels:
   - "gpio-device"
